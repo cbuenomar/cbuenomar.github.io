@@ -1,116 +1,121 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: "Carlos Bueno"
+  given: "Carlos"
+  family: "Bueno"
+  alternate: ""
+  pronunciation: ""
+  pronouns: ""
 postnominals:
-  - PhD
-  - MIEEE
+  - "PhD"
+  - ""
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
-bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+role: "Education Policy Researcher"
+bio: "Carlos Bueno is a PhD Researcher in Education Policy at the Autonomous University of Barcelona.
+
+  His research focuses on the role that geography plays in access to educational opportunities.
+
+  Particularly, he focuses on utilizing geospatial approaches and methods to inform educational planning and policymaking processes.\n"
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  - name: "Autonomous University of Barcelona"
+    url: "https://www.uab.cat/"
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+  - icon: "at-symbol"
+    url: "mailto:carlos.bueno.martinez96@gmail.com"
+    label: "E-mail Me"
+  - icon: "brands/x"
+    url: "https://x.com/charlie_good96"
+  - icon: "brands/github"
+    url: "https://github.com/cbuenomar"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/carlos-bueno-martinez-758720159"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?user=example"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0003-1848-6419"
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
+  - "Geospatial Approaches to Educational Planning"
+  - "Impact Evaluation Research in Education"
+  - "Implementation and Mixed-Methods Research"
+  - "Large-Scale Data Management & Analysis"
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: "PhD Sociology"
+    institution: "Autonomous University of Barcelona"
+    start: "2024"
+    end: "2027"
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-
+      Developing a PhD thesis on multidimensional and geospatial approaches for planning educational access in secondary schools in the city of Bogotá (Colombia).
+      Conducting econometric and geospatial analyses of school supply and demand, spatial accessibility, school choice behavior and socio-spatial segregation patterns using EMIS, Census, and Survey data.
+  - degree: "MS Education Policy for Global Development"
+    institution: "Glasgow University, Autonomous University of Barcelona and Cyprus University"
+    start: "2020"
+    end: "2022"
+  - degree: "MS School Psychology"
+    institution: "Miami University (Ohio)"
+    start: "2019"
+    end: "2020"
+  - degree: "BS Psychology"
+    institution: "Complutense University of Madrid"
+    start: "2015"
+    end: "2019"
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+  - role: "Education Policy Researcher"
+    org: "UNICEF Innocenti"
+    start: "April 2023"
+    end: "April 2024"
+    summary: "Led the design of Phase 4 of the DMS research initiative, integrating insights from scaling, implementation, and behavioral sciences to identify conditions for replicating effective school practices in LMICs.\n"
+  - role: "Education Policy Researcher and Data Analyst"
+    org: "Bofill Foundation"
+    start: "Aug 2022"
+    end: "Dec 2024"
+    summary: "Led a two-year research project on School Dropout in Secondary Education and TVET in Catalonia through the design and execution of quantitative and econometric analyses using large-scale EMIS education data.\n"
+  - role: "Monitoring and Evaluation (M&E) Officer"
+    org: "Education Cannot Wait (ECW)"
+    start: "Feb 2022"
+    end: "July 2022"
+    summary: "Supported the 2021 Annual Results Report by conducting data quality checks, harmonizing grantee datasets, performing quantitative analyses and drafting sections on access, financing and quality of education.\n"
+  - role: "Project Consultant"
+    org: "UNESCO-IBE"
+    start: "May 2021"
+    end: "Jan 2022"
+    summary: "Coordinated Capacity Development projects focused on curriculum reform for Ministries of Education in The Gambia and South Sudan and Led the design and management of a diverse Research and Development (R&D) portfolio across countries, covering Global Citizenship Education, Hybrid Education, Inclusive Education, and Curriculum Reform.\n"
 
 skills:
-  - name: Technical Skills
+  - name: "Technical Skills"
     items:
-      - label: Python
+      - label: "Python"
         level: 5
-      - label: Machine Learning
+      - label: "Machine Learning"
         level: 5
-      - label: Cloud Computing
+      - label: "Cloud Computing"
         level: 4
-  - name: Research & Communication
+  - name: "Research & Communication"
     items:
-      - label: Academic Writing
+      - label: "Academic Writing"
         level: 5
-      - label: Conference Presentations
+      - label: "Conference Presentations"
         level: 4
-      - label: Grant Proposals
+      - label: "Grant Proposals"
         level: 4
-
 languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
+  - name: "Spanish"
+    level: Native
+    label: "Native"
+  - name: "English"
+    level: C2
+    label: "Proficient"
+  - name: "French"
+    level: B1-B2
+    label: "Intermediate"
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: "La Caixa Foundation INPhINIT Fellowship"
+    awarder: "La Caixa Foundation"
+    date: "Feb 2022"
+    summary: "Awarded for conducting PhD research in Spain."
+    icon: "hero/trophy"
+
+
