@@ -85,22 +85,32 @@ experience:
     summary: "Coordinated Capacity Development projects focused on curriculum reform for Ministries of Education in The Gambia and South Sudan and Led the design and management of a diverse Research and Development (R&D) portfolio across countries, covering Global Citizenship Education, Hybrid Education, Inclusive Education, and Curriculum Reform.\n"
 
 skills:
-  - name: "Technical Skills"
+  - name: "Data Analysis & Management Skills"
     items:
+      - label: "R Programming"
+        level: "Advanced"
+      - label: "QGIS"
+        level: "Advanced"
+      - label: "NVivo"
+        level: "Advanced"
+      - label: "GitHub"
+        level: "Intermediate"
+      - label: "Stata"
+        level: "Intermediate"
       - label: "Python"
-        level: 5
-      - label: "Machine Learning"
-        level: 5
-      - label: "Cloud Computing"
-        level: 4
-  - name: "Research & Communication"
+        level: "Intermediate"
+      - label: "ArcGIS"
+        level: "Intermediate"
+  - name: "Office Skills"
     items:
-      - label: "Academic Writing"
-        level: 5
-      - label: "Conference Presentations"
-        level: 4
-      - label: "Grant Proposals"
-        level: 4
+      - label: "Word"
+        level: "Advanced"
+      - label: "Excel"
+        level: "Advanced"
+      - label: "Powerpoint"
+        level: "Advanced"
+      - label: "Powerpoint"
+        level: "Advanced"
 languages:
   - name: "Spanish"
     level: Native
@@ -114,8 +124,18 @@ languages:
 awards:
   - title: "La Caixa Foundation INPhINIT Fellowship"
     awarder: "La Caixa Foundation"
-    date: "Feb 2022"
+    date: "Feb 2024"
     summary: "Awarded for conducting PhD research in Spain."
+    icon: "hero/trophy"
+  - title: "Erasmus Mundus Schilarship"
+    awarder: "European Commission"
+    date: "Sep 2020"
+    summary: "Awarded for studying MA in Education Policy for Global Development in a consortium of three universities in Europe."
+    icon: "hero/trophy"
+  - title: "Graduate Scholarship"
+    awarder: "Miami University (Ohio)"
+    date: "Sep 2019"
+    summary: "Awarded for studying MS in School Psychology at Miami University (Ohio)."
     icon: "hero/trophy"
 
 
