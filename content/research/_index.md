@@ -1,14 +1,9 @@
 ---
 title: Research
-type: page    
+cms_exclude: true
 
-menu:
-  main:
-    name: Research
-    weight: 20
 ---
 
-```{=html}
 <style>
 /* ── Controls ── */
 .pub-controls {
