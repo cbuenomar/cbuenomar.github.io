@@ -143,6 +143,21 @@ cms_exclude: true
 
 <ul class="pub-list" id="pubList">
 
+<!-- 2026 -->
+  <li class="pub-item" data-type="report" data-year="2026">
+    <div>
+      <div class="pub-meta-top">
+        <span class="pub-badge">Report</span>
+        <span class="pub-sep">·</span>
+        <span class="pub-year">2026</span>
+      </div>
+      <a class="pub-title-link" href="https://www.equitat.org/publicacions/labandonament-escolar-a-secundaria-radiografia-dun-estancament" target="_blank" rel="noopener">L'abandonament escolar a Catalinya: Radiografia d'un estacament [School Dropout in Catalonia: A Radiography of stagnation]</a>
+      <div class="pub-authors">Zancajo, A., &amp; <strong>Bueno, C.</strong></div>
+      <div class="pub-venue">Fundació Jaume Bofill</div>
+    </div>
+  </li>
+
+
   <!-- 2025 -->
   <li class="pub-item" data-type="article" data-year="2025">
     <div>
@@ -165,7 +180,7 @@ cms_exclude: true
         <span class="pub-sep">·</span>
         <span class="pub-year">2024</span>
       </div>
-      <span class="pub-title-text">L'abandonament a l'educació postobligatòria [School Dropout in Upper Secondary Education in Catalonia]</span>
+      <a class="pub-title-link" href="https://www.equitat.org/publicacions/abandonament-al-batxillerat-i-als-cicles-formatius-de-grau-mitja" target="_blank" rel="noopener">L'abandonament al batxillerat i als cicles formatius de grau mitjà [School Dropout in Upper Secondary Education in Catalonia]</a>
       <div class="pub-authors">Zancajo, A., &amp; <strong>Bueno, C.</strong></div>
       <div class="pub-venue">Fundació Jaume Bofill</div>
     </div>
@@ -193,7 +208,7 @@ cms_exclude: true
         <span class="pub-sep">·</span>
         <span class="pub-year">2023</span>
       </div>
-      <span class="pub-title-text">L'abandonament a 4t d'ESO: les desigualtats en la transició a l'educació postobligatòria [School dropout in the transition from lower to upper secondary education in Catalonia]</span>
+      <a class="pub-title-link" href="https://www.equitat.org/publicacions/l-abandonament-a-4t-d-eso-les-desigualtats-en-la-transicio-a-l-educacio-postobligatoria" target="_blank" rel="noopener">L'abandonament a 4t d'ESO: les desigualtats en la transició a l'educació postobligatòria [School dropout in the transition from lower to upper secondary education in Catalonia]</a>
       <div class="pub-authors">Zancajo, A., &amp; <strong>Bueno, C.</strong></div>
       <div class="pub-venue">Fundació Jaume Bofill</div>
     </div>
@@ -220,7 +235,7 @@ cms_exclude: true
         <span class="pub-sep">·</span>
         <span class="pub-year">2021</span>
       </div>
-      <span class="pub-title-text">Curriculum as the Spirit and Subject Matter of Education</span>
+      <a class="pub-title-link" href="https://unesdoc.unesco.org/ark:/48223/pf0000379386?posInSet=1&queryId=a873a85e-ed46-49e7-a120-a689068cee3b" target="_blank" rel="noopener">Curriculum as the Spirit and Subject Matter of Education</a>
       <div class="pub-authors"><strong>Bueno, C.</strong>, Opertti, R., &amp; Arsendeau, P.</div>
       <div class="pub-venue">In <em>Curriculum On The Move</em>. UNESCO-IBE: Geneva</div>
     </div>
@@ -233,7 +248,7 @@ cms_exclude: true
         <span class="pub-sep">·</span>
         <span class="pub-year">2021</span>
       </div>
-      <span class="pub-title-text">Inclusion in Education</span>
+       <a class="pub-title-link" href="https://unesdoc.unesco.org/ark:/48223/pf0000378427?posInSet=6&queryId=ba585d3a-a33b-42cb-aaad-56e66c1af505" target="_blank" rel="noopener">Inclusion in Education</a>
       <div class="pub-authors">Opertti, R., <strong>Bueno, C.</strong>, &amp; Arsendeau, P.</div>
       <div class="pub-venue">In <em>Curriculum On The Move</em>. UNESCO-IBE: Geneva</div>
     </div>
@@ -247,7 +262,7 @@ cms_exclude: true
         <span class="pub-sep">·</span>
         <span class="pub-year">2020</span>
       </div>
-      <span class="pub-title-text">Disability Critical Race Theory</span>
+       <a class="pub-title-link" href="https://www.taylorfrancis.com/chapters/edit/10.4324/9780367815325-4/discrit-sujay-sabnis-carlos-bueno-martinez" target="_blank" rel="noopener">Disability Critical Race Theory</a>
       <div class="pub-authors">Sabnis, S., &amp; <strong>Bueno, C.</strong></div>
       <div class="pub-venue">In Proctor, S. L., &amp; Rivera, D. P. (Eds.), <em>Critical Theories for School-Based Practice: A Foundation for Equity and Inclusion in Practice and Supervision</em></div>
     </div>
