@@ -36,12 +36,4 @@ tags:
   - Segregation
   - Spain
 
-links:
-  - name: Journal
-    url: https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.3900
-
-image:
-  caption: 'Educational supply and urban fragmentation in Madrid'
-  focal_point: 'Center'
-  preview_only: false
 ---
