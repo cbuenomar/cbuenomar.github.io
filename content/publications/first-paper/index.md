@@ -8,9 +8,6 @@ authors:
 
 date: '2023-09-01T00:00:00Z'
 
-# DOI (optional — shows a link button automatically)
-doi: '10.1002/berj.3900'
-
 # Publication type from CSL standard
 # Options: article, article-journal, article-magazine, article-newspaper,
 #          book, chapter, dataset, document, entry-encyclopedia,
