@@ -35,14 +35,20 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 My work'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am an Education Policy Researcher and Ph.D Candidate with over five years of international experience bridging research, policy, and practice. As a education specialist, my work focuses on utilizing diverse data sources to inform educational planning and strengthen education systems' use of evidence.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My core research areas include: 
+        
+        - **School Choice & Urban Dynamics:** Examining school supply/demand, spatial accessibility, and socio-spatial segregation patterns using econometric and geospatial analyses.  
+        
+        - **Educational Equity & Dropout Prevention:** Utilizing administrative EMIS data to analyze school dropout patterns in secondary education and TVET systems.  
+        
+        - **System Scaling & Innovation:** Applying insights from behavioral, implementation, and scaling sciences to identify and replicate effective local school practices in education systems.
 
-        Please reach out to collaborate 😃
+        **Let's Connect!** I am always looking to discuss with  researchers, policymakers, and organizations passionate about education policy research Please reach out to collaborate!
     design:
       columns: '1'
   - block: collection
@@ -56,14 +62,4 @@ sections:
     design:
       view: article-grid
       columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: card
 ---
