@@ -18,8 +18,6 @@ publication:
 
 featured: true
 
-url: 'https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1002/berj.3889'
-
 abstract: >
   This article examines the socio-spatial distribution of educational supply
   in the city of Madrid. Drawing on a geospatial approach, we analyse how
