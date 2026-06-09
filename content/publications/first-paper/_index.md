@@ -19,8 +19,12 @@ doi: '10.1002/berj.3900'
 publication_types: ['article-journal']
 
 # Journal/venue info
-publication: '*British Educational Research Journal*'
-publication_short: '*BERJ*'
+publication:
+  name: "British Educational Research Journal"
+  short_name: "BERJ"
+  volume: "49"
+  issue: "5"
+  pages: "1108-1132"
 
 # Show on homepage featured block?
 featured: true
@@ -50,27 +54,15 @@ tags:
 links:
   - name: Journal
     url: https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.3900
-  # - name: PDF
-  #   url: uploads/fragmented-spaces.pdf   # place PDF in static/uploads/
-  # - name: Preprint
-  #   url: https://example.com/preprint
 
 # Featured image
 # Place a file named featured.jpg or featured.png in this same folder.
 # Caption is shown below the image.
 image:
   caption: 'Educational supply and urban fragmentation in Madrid'
-  focal_point: 'Center'   # Options: Smart, Center, TopLeft, Top, TopRight,
-                           #          Left, Right, BottomLeft, Bottom, BottomRight
-  preview_only: false      # Set true to hide image on the article page (show only in cards)
+  focal_point: 'Center' 
+  preview_only: false   
 
-# Associated projects (optional)
-# Reference a folder name under content/projects/
-projects: []
-
-# Slides (optional)
-# Reference a filename under content/slides/ without extension
-slides: ''
 ---
 
 ## Overview
