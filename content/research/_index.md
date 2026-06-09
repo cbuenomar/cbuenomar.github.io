@@ -221,7 +221,7 @@ cms_exclude: true
         <span class="pub-sep">·</span>
         <span class="pub-year">2023</span>
       </div>
-      <a class="pub-title-link" href="https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.3900" target="_blank" rel="noopener">Fragmented spaces in the urban landscape: A socio-spatial analysis of educational supply in the city of Madrid</a>
+      <a class="pub-title-link" href="https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1002/berj.3889" target="_blank" rel="noopener">Fragmented spaces in the urban landscape: A socio-spatial analysis of educational supply in the city of Madrid</a>
       <div class="pub-authors"><strong>Bueno, C.</strong>, &amp; Bonal, X.</div>
       <div class="pub-venue">British Educational Research Journal, 49(5), 1108–1132</div>
     </div>
