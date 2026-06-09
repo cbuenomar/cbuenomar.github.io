@@ -16,35 +16,35 @@ cms_exclude: true
   margin-bottom: 0.85rem;
 }
 .filter-btn {
-  border: 1px solid #d0d0d0;
+  border: 1px solid var(--color-primary-200);
   background: transparent;
   border-radius: 2rem;
   padding: 0.22rem 0.9rem;
   font-size: 0.78rem;
   font-weight: 500;
   cursor: pointer;
-  color: #666;
+  color: var(--color-primary-600);
   transition: border-color 0.15s, color 0.15s, background 0.15s;
   letter-spacing: 0.02em;
 }
-.filter-btn:hover:not(.active) { border-color: #333; color: #333; }
-.filter-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+.filter-btn:hover:not(.active) { border-color: var(--color-primary-900); color: var(--color-primary-900); }
+.filter-btn.active { background: var(--color-primary-950); color: var(--color-primary-50); border-color: var(--color-primary-950); }
 
 .pub-search {
   width: 100%;
   max-width: 440px;
   padding: 0.4rem 0.85rem;
-  border: 1px solid #ddd;
+  border: 1px solid var(--color-primary-200);
   border-radius: 0.3rem;
   font-size: 0.875rem;
   outline: none;
   transition: border-color 0.15s;
 }
-.pub-search:focus { border-color: #333; }
+.pub-search:focus { border-color: var(--color-primary-900); }
 
 .pub-count {
   font-size: 0.78rem;
-  color: #bbb;
+  color: var(--color-primary-300);
   margin-top: 0.45rem;
   letter-spacing: 0.03em;
 }
@@ -59,13 +59,13 @@ cms_exclude: true
 .pub-item {
   padding: 1rem 0.75rem 1rem 1.1rem;
   border-left: 2px solid transparent;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid var(--color-primary-100);
   transition: background 0.12s, border-left-color 0.12s;
 }
 .pub-item:last-child { border-bottom: none; }
 .pub-item:hover {
-  background: #fafafa;
-  border-left-color: #1a1a1a;
+  background: var(--color-primary-50);
+  border-left-color: var(--color-primary-950);
 }
 
 /* ── Meta row ── */
@@ -75,16 +75,16 @@ cms_exclude: true
   gap: 0.35rem;
   margin-bottom: 0.3rem;
 }
-.pub-icon { font-size: 0.72rem; color: #888; }
+.pub-icon { font-size: 0.72rem; color: var(--color-primary-500); }
 .pub-badge {
   font-size: 0.62rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #888;
+  color: var(--color-primary-500);
 }
-.pub-sep { font-size: 0.62rem; color: #ccc; user-select: none; }
-.pub-year { font-size: 0.75rem; color: #888; font-weight: 500; }
+.pub-sep { font-size: 0.62rem; color: var(--color-primary-200); user-select: none; }
+.pub-year { font-size: 0.75rem; color: var(--color-primary-500); font-weight: 500; }
 
 /* Status badges */
 .pub-status {
@@ -97,14 +97,14 @@ cms_exclude: true
   margin-left: 0.25rem;
 }
 .status-review { background: #fff3cd; color: #856404; }
-.status-unpublished { background: #e2e3e5; color: #555; }
+.status-unpublished { background: #e2e3e5; color: var(--color-primary-700); }
 
 /* ── Title & body ── */
 .pub-title-link {
   font-weight: 600;
   font-size: 0.95rem;
   line-height: 1.45;
-  color: #111;
+  color: var(--color-primary-950);
   text-decoration: none;
 }
 .pub-title-link:hover { text-decoration: underline; }
@@ -112,17 +112,17 @@ cms_exclude: true
   font-weight: 600;
   font-size: 0.95rem;
   line-height: 1.45;
-  color: #333;
+  color: var(--color-primary-900);
 }
 .pub-authors {
   font-size: 0.85rem;
-  color: #555;
+  color: var(--color-primary-700);
   margin-top: 0.2rem;
 }
 .pub-authors strong { color: #222; }
 .pub-venue {
   font-size: 0.85rem;
-  color: #666;
+  color: var(--color-primary-600);
   font-style: italic;
   margin-top: 0.05rem;
 }
@@ -221,7 +221,7 @@ cms_exclude: true
         <span class="pub-sep">·</span>
         <span class="pub-year">2023</span>
       </div>
-      <a class="pub-title-link" href="https://bera-journals.onlinelibrary.wiley.com/doi/10.1002/berj.3900" target="_blank" rel="noopener">Fragmented spaces in the urban landscape: A socio-spatial analysis of educational supply in the city of Madrid</a>
+      <a class="pub-title-link" href="https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1002/berj.3889" target="_blank" rel="noopener">Fragmented spaces in the urban landscape: A socio-spatial analysis of educational supply in the city of Madrid</a>
       <div class="pub-authors"><strong>Bueno, C.</strong>, &amp; Bonal, X.</div>
       <div class="pub-venue">British Educational Research Journal, 49(5), 1108–1132</div>
     </div>
