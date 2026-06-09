@@ -3,7 +3,7 @@ title: 'Fragmented spaces in the urban landscape: A socio-spatial analysis of ed
 
 # Authors — use 'me' for yourself, or write the name directly
 authors:
-  - me
+  - Carlos Bueno
   - Xavier Bonal
 
 date: '2023-09-01T00:00:00Z'
