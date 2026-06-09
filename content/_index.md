@@ -42,13 +42,13 @@ sections:
 
         My core research areas include: 
         
-        - **School Choice & Urban Dynamics:** Examining school supply/demand, spatial accessibility, and socio-spatial segregation patterns using econometric and geospatial analyses.  
+        - **School Choice & Urban Dynamics:** Examining school supply and demand processes, spatial accessibility, and socio-spatial segregation patterns using econometric and geospatial analyses.  
         
         - **Educational Equity & Dropout Prevention:** Utilizing administrative EMIS data to analyze school dropout patterns in secondary education and TVET systems.  
         
         - **System Scaling & Innovation:** Applying insights from behavioral, implementation, and scaling sciences to identify and replicate effective local school practices in education systems.
 
-        **Let's Connect!** I am always looking to discuss with  researchers, policymakers, and organizations passionate about education policy research Please reach out to collaborate!
+        Please reach out to collaborate!
     design:
       columns: '1'
   - block: collection
@@ -61,5 +61,5 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 1
 ---

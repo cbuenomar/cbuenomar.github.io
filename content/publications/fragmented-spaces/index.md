@@ -18,9 +18,11 @@ publication:
 
 featured: true
 
+url: 'https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1002/berj.3889'
+
 abstract: >
   This article examines the socio-spatial distribution of educational supply
-  in the city of Madrid. Drawing on a mixed-methods approach, we analyse how
+  in the city of Madrid. Drawing on a geospatial approach, we analyse how
   school choice policies and urban restructuring produce fragmented educational
   landscapes that reinforce residential segregation. We argue that the spatial
   organisation of schooling reflects and reproduces existing social inequalities
@@ -32,8 +34,8 @@ summary: >
 
 tags:
   - School Choice
-  - Urban Education
-  - Segregation
-  - Spain
+  - School Supply
+  - Residential Segregation
+  - Madrid
 
 ---
