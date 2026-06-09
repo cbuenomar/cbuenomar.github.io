@@ -151,7 +151,7 @@ cms_exclude: true
         <span class="pub-sep">·</span>
         <span class="pub-year">2026</span>
       </div>
-      <a class="pub-title-link" href="https://www.equitat.org/publicacions/labandonament-escolar-a-secundaria-radiografia-dun-estancament" target="_blank" rel="noopener">L'abandonament escolar a Catalinya: Radiografia d'un estacament [School Dropout in Catalonia: A Radiography of stagnation]</a>
+      <a class="pub-title-link" href="https://www.equitat.org/publicacions/labandonament-escolar-a-secundaria-radiografia-dun-estancament" target="_blank" rel="noopener">L'abandonament escolar a Catalunya: Radiografia d'un estacament [School Dropout in Catalonia: A Radiography of stagnation]</a>
       <div class="pub-authors">Zancajo, A., &amp; <strong>Bueno, C.</strong></div>
       <div class="pub-venue">Fundació Jaume Bofill</div>
     </div>
