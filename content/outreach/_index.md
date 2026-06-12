@@ -13,13 +13,13 @@ cms_exclude: true
 .outreach-item {
   padding: 1rem 0.75rem 1rem 1.1rem;
   border-left: 2px solid transparent;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid light-dark(#f0f0f0, #1f2533);
   transition: background 0.12s, border-left-color 0.12s;
 }
 .outreach-item:last-child { border-bottom: none; }
 .outreach-item:hover {
-  background: #fafafa;
-  border-left-color: #1a1a1a;
+  background: light-dark(#fafafa, #161c29);
+  border-left-color: light-dark(#1a1a1a, #ffffff);
 }
 
 .outreach-meta-top {
@@ -33,29 +33,30 @@ cms_exclude: true
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #888;
+  color: light-dark(#888, #8b95a5);
 }
-.outreach-sep { font-size: 0.62rem; color: #ccc; user-select: none; }
-.outreach-date { font-size: 0.75rem; color: #888; font-weight: 500; }
+.outreach-sep { font-size: 0.62rem; color: light-dark(#ccc, #4a5263); user-select: none; }
+.outreach-date { font-size: 0.75rem; color: light-dark(#888, #8b95a5); font-weight: 500; }
 
+/* Linked titles: purple-ish in light mode, blue in dark mode */
 .outreach-title-link {
   font-weight: 600;
   font-size: 0.95rem;
   line-height: 1.45;
-  color: #111;
+  color: light-dark(#6d4ce0, #60a5fa);
   text-decoration: none;
 }
 .outreach-title-link:hover { text-decoration: underline; }
 
 .outreach-venue {
   font-size: 0.85rem;
-  color: #666;
+  color: light-dark(#666, #8b95a5);
   font-style: italic;
   margin-top: 0.05rem;
 }
 .outreach-coauthor {
   font-size: 0.82rem;
-  color: #888;
+  color: light-dark(#888, #8b95a5);
   margin-top: 0.1rem;
 }
 </style>
