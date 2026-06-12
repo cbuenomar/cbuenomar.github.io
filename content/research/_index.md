@@ -1,14 +1,10 @@
 ---
 title: Research
 cms_exclude: true
-
 ---
 
 <style>
-/* ── Controls ── */
-.pub-controls {
-  margin-bottom: 2rem;
-}
+.pub-controls { margin-bottom: 2rem; }
 .filter-group {
   display: flex;
   flex-wrap: wrap;
@@ -16,77 +12,72 @@ cms_exclude: true
   margin-bottom: 0.85rem;
 }
 .filter-btn {
-  border: 1px solid #d0d0d0;
+  border: 1px solid light-dark(#d0d0d0, #3a4150);
   background: transparent;
   border-radius: 2rem;
   padding: 0.22rem 0.9rem;
   font-size: 0.78rem;
   font-weight: 500;
   cursor: pointer;
-  color: #666;
+  color: light-dark(#666, #b8c0cc);
   transition: border-color 0.15s, color 0.15s, background 0.15s;
   letter-spacing: 0.02em;
 }
-.filter-btn:hover:not(.active) { border-color: #333; color: #333; }
-.filter-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
-
+.filter-btn:hover:not(.active) {
+  border-color: light-dark(#333, #ffffff);
+  color: light-dark(#333, #ffffff);
+}
+.filter-btn.active {
+  background: light-dark(#1a1a1a, #ffffff);
+  color: light-dark(#ffffff, #0a0a0a);
+  border-color: light-dark(#1a1a1a, #ffffff);
+}
 .pub-search {
   width: 100%;
   max-width: 440px;
   padding: 0.4rem 0.85rem;
-  border: 1px solid #ddd;
+  border: 1px solid light-dark(#ddd, #3a4150);
   border-radius: 0.3rem;
   font-size: 0.875rem;
   outline: none;
+  background: transparent;
+  color: light-dark(#0a0a0a, #ffffff);
   transition: border-color 0.15s;
 }
-.pub-search:focus { border-color: #333; }
-
+.pub-search:focus { border-color: light-dark(#333, #ffffff); }
 .pub-count {
   font-size: 0.78rem;
-  color: #bbb;
+  color: light-dark(#bbb, #6b7480);
   margin-top: 0.45rem;
   letter-spacing: 0.03em;
 }
-
-/* ── List ── */
-.pub-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
+.pub-list { list-style: none; padding: 0; margin: 0; }
 .pub-item {
   padding: 1rem 0.75rem 1rem 1.1rem;
   border-left: 2px solid transparent;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid light-dark(#f0f0f0, #1f2533);
   transition: background 0.12s, border-left-color 0.12s;
 }
 .pub-item:last-child { border-bottom: none; }
 .pub-item:hover {
-  background: #fafafa;
-  border-left-color: #1a1a1a;
+  background: light-dark(#fafafa, #161c29);
+  border-left-color: light-dark(#1a1a1a, #ffffff);
 }
-
-/* ── Meta row ── */
 .pub-meta-top {
   display: flex;
   align-items: center;
   gap: 0.35rem;
   margin-bottom: 0.3rem;
 }
-.pub-icon { font-size: 0.72rem; color: #888; }
 .pub-badge {
   font-size: 0.62rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #888;
+  color: light-dark(#888, #8b95a5);
 }
-.pub-sep { font-size: 0.62rem; color: #ccc; user-select: none; }
-.pub-year { font-size: 0.75rem; color: #888; font-weight: 500; }
-
-/* Status badges */
+.pub-sep { font-size: 0.62rem; color: light-dark(#ccc, #4a5263); user-select: none; }
+.pub-year { font-size: 0.75rem; color: light-dark(#888, #8b95a5); font-weight: 500; }
 .pub-status {
   font-size: 0.6rem;
   font-weight: 700;
@@ -99,34 +90,36 @@ cms_exclude: true
 .status-review { background: #fff3cd; color: #856404; }
 .status-unpublished { background: #e2e3e5; color: #555; }
 
-/* ── Title & body ── */
-.pub-title-link {
-  font-weight: 600;
-  font-size: 0.95rem;
-  line-height: 1.45;
-  color: #111;
-  text-decoration: none;
-}
-.pub-title-link:hover { text-decoration: underline; }
+/* Titles: black in light mode, white in dark mode */
 .pub-title-text {
   font-weight: 600;
   font-size: 0.95rem;
   line-height: 1.45;
-  color: #333;
+  color: light-dark(#0a0a0a, #ffffff);
 }
+
+/* Linked titles: purple-ish in light mode, blue in dark mode */
+.pub-title-link {
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: light-dark(#6d4ce0, #60a5fa);
+  text-decoration: none;
+}
+.pub-title-link:hover { text-decoration: underline; }
+
 .pub-authors {
   font-size: 0.85rem;
-  color: #555;
+  color: light-dark(#555, #b8c0cc);
   margin-top: 0.2rem;
 }
-.pub-authors strong { color: #222; }
+.pub-authors strong { color: light-dark(#222, #e2e6ec); }
 .pub-venue {
   font-size: 0.85rem;
-  color: #666;
+  color: light-dark(#666, #8b95a5);
   font-style: italic;
   margin-top: 0.05rem;
 }
-
 .pub-hidden { display: none; }
 </style>
 
@@ -143,7 +136,7 @@ cms_exclude: true
 
 <ul class="pub-list" id="pubList">
 
-<!-- 2026 -->
+  <!-- 2026 -->
   <li class="pub-item" data-type="report" data-year="2026">
     <div>
       <div class="pub-meta-top">
@@ -156,7 +149,6 @@ cms_exclude: true
       <div class="pub-venue">Fundació Jaume Bofill</div>
     </div>
   </li>
-
 
   <!-- 2025 -->
   <li class="pub-item" data-type="article" data-year="2025">
@@ -248,7 +240,7 @@ cms_exclude: true
         <span class="pub-sep">·</span>
         <span class="pub-year">2021</span>
       </div>
-       <a class="pub-title-link" href="https://unesdoc.unesco.org/ark:/48223/pf0000378427?posInSet=6&queryId=ba585d3a-a33b-42cb-aaad-56e66c1af505" target="_blank" rel="noopener">Inclusion in Education</a>
+      <a class="pub-title-link" href="https://unesdoc.unesco.org/ark:/48223/pf0000378427?posInSet=6&queryId=ba585d3a-a33b-42cb-aaad-56e66c1af505" target="_blank" rel="noopener">Inclusion in Education</a>
       <div class="pub-authors">Opertti, R., <strong>Bueno, C.</strong>, &amp; Arsendeau, P.</div>
       <div class="pub-venue">In <em>Curriculum On The Move</em>. UNESCO-IBE: Geneva</div>
     </div>
@@ -262,7 +254,7 @@ cms_exclude: true
         <span class="pub-sep">·</span>
         <span class="pub-year">2020</span>
       </div>
-       <a class="pub-title-link" href="https://www.taylorfrancis.com/chapters/edit/10.4324/9780367815325-4/discrit-sujay-sabnis-carlos-bueno-martinez" target="_blank" rel="noopener">Disability Critical Race Theory</a>
+      <a class="pub-title-link" href="https://www.taylorfrancis.com/chapters/edit/10.4324/9780367815325-4/discrit-sujay-sabnis-carlos-bueno-martinez" target="_blank" rel="noopener">Disability Critical Race Theory</a>
       <div class="pub-authors">Sabnis, S., &amp; <strong>Bueno, C.</strong></div>
       <div class="pub-venue">In Proctor, S. L., &amp; Rivera, D. P. (Eds.), <em>Critical Theories for School-Based Practice: A Foundation for Equity and Inclusion in Practice and Supervision</em></div>
     </div>
@@ -307,4 +299,3 @@ cms_exclude: true
   update();
 })();
 </script>
-```
