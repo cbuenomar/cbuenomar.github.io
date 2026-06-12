@@ -43,7 +43,7 @@ cms_exclude: true
   font-weight: 600;
   font-size: 0.95rem;
   line-height: 1.45;
-  color: light-dark(#6d4ce0, #60a5fa);
+  color: light-dark(#5046a8, #60a5fa);
   text-decoration: none;
 }
 .outreach-title-link:hover { text-decoration: underline; }
